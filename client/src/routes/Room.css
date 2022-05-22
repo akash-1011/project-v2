@@ -1,0 +1,85 @@
+.callpage {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left-callpage {
+    flex: 0.5;
+    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-callpage {
+    flex: 0.5;
+}
+
+.ace_editor, .CodeMirror {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden;
+}
+
+.editor {
+    flex: 0.7;
+    position: relative;
+}
+
+.editor-menu {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    color: #fff;
+    display: flex;
+}
+
+.btn-run {
+    margin-left: 5px !important;
+    padding: 4px 14px;
+    background-color: #219121;
+    font-weight: 600;
+}
+
+.output {
+    flex: 0.3;
+    background-color: rgb(55, 55, 55);
+    color: #fff;
+}
+
+.op {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.video-container {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    height: 16vh;
+    width: 100%;
+    margin: 8px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user-video {
+    margin-right: 5px;
+}
+
+.canvas {
+    height: 400px;
+    width: 400px;
+    border: 1px solid #000;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }

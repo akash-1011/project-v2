@@ -1,0 +1,135 @@
+.createroom {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f9fb;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left {
+    max-width: 500px;
+}
+
+.left > .content > h2 {
+    font-size: 44px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.left > .content > p {
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.action-btn {
+    display: flex;
+}
+
+.left > .content > .action-btn {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left > .content > .action-btn > .btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 5px;
+    color: #232323;
+    text-decoration: none;
+}
+
+.left > .content > .action-btn > .btn > .icon-block {
+    padding-right: 10px;
+}
+
+.left > .content > .action-btn > .btn > .icon-block :hover {
+    background: #f6faf9 !important;
+}
+
+.action-btn > .input-block {
+    margin-left: 20px;
+    display: flex;
+    flex: 1;
+}
+
+.black {
+    background-color: #232323 !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+}
+
+.black :hover {
+    background-color: #535353 !important;
+}
+
+.action-btn > .input-block > .input-section {
+    position: relative;
+    margin-right: 10px;
+}
+
+.action-btn > .input-block > .input-section > .icon-block {
+    position: absolute;
+    top: 50%;
+    transform: translate(10px, -50%);
+    color: #5f6368;
+}
+
+.action-btn > .input-block > .no-bg {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 5px;
+    color: #2a2a2a;
+    text-decoration: none;
+}
+
+input {
+    font-size: 16px;
+    height: 48px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 35px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+.right > .content {
+    border: 1px solid #eee;
+    background-color: #fff;
+        padding: 30px;
+        width: 100%;
+        max-width: 650px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+          0 2px 6px 2px rgba(60, 64, 67, 0.149);
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+  }

@@ -1,0 +1,32 @@
+.callpagefooter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    background-color: #272822;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.left-callfooter, .middle-callfooter, .right-callfooter {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    color: #fff;
+}
+
+.icon-callfooter {
+    margin-right: 10px;
+}
+
+.red-bg {
+    color: red !important;
+}
+
+.green-bg {
+    color: green !important;
+}
